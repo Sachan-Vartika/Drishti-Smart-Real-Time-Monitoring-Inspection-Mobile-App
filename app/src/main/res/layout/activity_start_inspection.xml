@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DRISHTI"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172554"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Field Inspection"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#475569"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/projectName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter project / NGO name"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inspection Checklist"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="25dp"/>
+
+        <CheckBox
+            android:id="@+id/checkFunctioning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project functioning"/>
+
+        <CheckBox
+            android:id="@+id/checkStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Staff present"/>
+
+        <CheckBox
+            android:id="@+id/checkBeneficiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beneficiary services available"/>
+
+        <CheckBox
+            android:id="@+id/checkRecords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Records maintained"/>
+
+        <CheckBox
+            android:id="@+id/checkInfrastructure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infrastructure satisfactory"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inspection Remarks"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/remarks"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Enter inspection remarks"
+            android:gravity="top"
+            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/getLocation"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📍 CAPTURE GPS LOCATION"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: Not captured"
+            android:textSize="15sp"
+            android:textColor="#172554"
+            android:padding="15dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/capturePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📷 CAPTURE PHOTO"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/photoPreview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:background="#E2E8F0"
+            android:contentDescription="Inspection evidence"/>
+
+        <Button
+            android:id="@+id/submitInspection"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SUBMIT INSPECTION"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

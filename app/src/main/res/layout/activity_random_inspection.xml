@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RANDOM INSPECTION"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#172554"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI / Automation based inspection assignment"
+        android:textSize="14sp"
+        android:textColor="#64748B"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/assignNow"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="ASSIGN NOW"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ASSIGNED PROJECT"
+          android:textSize="13sp"
+          android:textStyle="bold"
+          android:textColor="#64748B"/>
+
+      <TextView
+          android:id="@+id/projectName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="No project assigned"
+          android:textSize="22sp"
+          android:textStyle="bold"
+          android:textColor="#172554"
+          android:layout_marginTop="8dp"/>
+
+      <TextView
+          android:id="@+id/location"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Location"
+          android:textSize="16sp"
+          android:textColor="#475569"
+          android:layout_marginTop="10dp"/>
+
+      <TextView
+          android:id="@+id/type"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Project Type"
+          android:textSize="16sp"
+          android:textColor="#475569"
+          android:layout_marginTop="5dp"/>
+
+      <TextView
+          android:id="@+id/risk"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Risk Level"
+          android:textSize="16sp"
+          android:textColor="#475569"
+          android:layout_marginTop="8dp"/>
+
+      <TextView
+          android:id="@+id/inspector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Assigned Inspector"
+          android:textSize="16sp"
+          android:textColor="#475569"
+          android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startInspection"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="START INSPECTION"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+  </LinearLayout>
+
+</ScrollView>

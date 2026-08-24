@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DRISHTI"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172554"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Monitoring &amp; Inspection"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitoring Overview"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PROJECTS\n128"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#2563EB"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="INSPECTIONS\n24"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#7C3AED"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="AI ALERTS\n7"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#DC2626"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="REPORTS\n56"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#059669"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick Actions"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/randomInspection"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Random Inspection"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/startInspection"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Start Inspection"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/cctv"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CCTV Monitoring"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/analytics"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="AI Analytics"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

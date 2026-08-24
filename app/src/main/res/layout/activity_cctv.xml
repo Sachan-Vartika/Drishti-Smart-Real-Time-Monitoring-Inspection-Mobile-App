@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CCTV MONITORING"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#172554"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a project to connect to CCTV"
+            android:textSize="15sp"
+            android:textColor="#64748B"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:padding="15dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABC NGO"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#172554"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghaziabad, Uttar Pradesh"
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/connect1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CONNECT"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:padding="15dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seva Institute"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#172554"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noida, Uttar Pradesh"
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/connect2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CONNECT"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:padding="15dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hope Foundation"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#172554"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi"
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/connect3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CONNECT"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
